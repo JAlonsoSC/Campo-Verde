@@ -24,9 +24,7 @@
                 </button>
                 <div class="collapse navbar-collapse" id="navbarSupportedContent">
                     <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-                        <li class="nav-item">
-                            <a style="margin-left: 10px; border: none" class="btn btn-outline-light" href="principal.jsp">Home</a>
-                        </li>
+
                         <li class="nav-item">
                             <a style="margin-left: 10px; border: none" class="btn btn-outline-light" href="Empleado_lista.jsp">Lista de Empleados</a>
                         </li>
@@ -141,27 +139,27 @@
                                                             <input type="hidden" name="IdEmpleado" value="<%= empleado.getIdEmpleado() %>">
                                                             <div class="form-group mb-4">
                                                                 <label for="Dni<%= empleado.getIdEmpleado() %>">DNI</label>
-                                                                <input type="text" id="Dni" value="<%= empleado.getDni() %>" name="Dni" class="form-control" required pattern="\d+">
+                                                                <input type="text" id="Dni<%= empleado.getIdEmpleado() %>" value="<%= empleado.getDni() %>" name="Dni" class="form-control" required pattern="\d+">
                                                             </div>
                                                             <div class="form-group mb-4">
                                                                 <label for="Nombres<%= empleado.getIdEmpleado() %>">Nombres</label>
-                                                                <input type="text" id="Nombres" value="<%= empleado.getNombres() %>" name="Nombres" class="form-control" required>
+                                                                <input type="text" id="Nombres<%= empleado.getIdEmpleado() %>" value="<%= empleado.getNombres() %>" name="Nombres" class="form-control" required>
                                                             </div>
                                                             <div class="form-group mb-4">
                                                                 <label for="Telefono<%= empleado.getIdEmpleado() %>">Teléfono</label>
-                                                                <input type="text" id="Telefono" value="<%= empleado.getTelefono() %>" name="Telefono" class="form-control" required pattern="\d+">
+                                                                <input type="text" id="Telefono<%= empleado.getIdEmpleado() %>" value="<%= empleado.getTelefono() %>" name="Telefono" class="form-control" required pattern="\d+">
                                                             </div>
                                                             <div class="form-group mb-4">
                                                                 <label for="correo<%= empleado.getIdEmpleado() %>">Correo:</label>
-                                                                <input type="email" id="Correo" value="<%= empleado.getCorreo() %>" name="Correo" class="form-control" required>
+                                                                <input type="email" id="Correo<%= empleado.getIdEmpleado() %>" value="<%= empleado.getCorreo() %>" name="Correo" class="form-control" required>
                                                             </div>
                                                             <div class="form-group mb-4">
-                                                                <label for="cargo <%= empleado.getIdEmpleado() %>">Cargo: </label>
-                                                                <input type="text" id="Cargo" value="<%= empleado.getCargo() %>" name="Cargo" class="form-control" required>
+                                                                <label for="cargo<%= empleado.getIdEmpleado() %>">Cargo: </label>
+                                                                <input type="text" id="Cargo<%= empleado.getIdEmpleado() %>" value="<%= empleado.getCargo() %>" name="Cargo" class="form-control" required>
                                                             </div>
                                                             <div class="form-group mb-4">
                                                                 <label for="User<%= empleado.getIdEmpleado() %>">Usuario</label>
-                                                                <input type="text" id="User" value="<%= empleado.getUser() %>" name="User" class="form-control" required>
+                                                                <input type="text" id="User<%= empleado.getIdEmpleado() %>" value="<%= empleado.getUser() %>" name="User" class="form-control" required>
                                                             </div>
                                                             <div class="modal-footer">
                                                                 <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cancelar</button>

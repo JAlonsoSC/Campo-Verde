@@ -31,7 +31,7 @@
                             <li><a href="nosotros.jsp">Nosotros</a></li>
                             <li><a href="productos.jsp">Productos</a></li>
                             <li><a href="contacto.jsp">Contacto</a></li>
-                            <li><a href="#">Blog</a></li>
+                            <li><a href="vistaForo.jsp">Foro</a></li>
                         </ul><br>
                         <div class="login-icon">
                             <a href="login.jsp"><i class="fas fa-user"></i></a>

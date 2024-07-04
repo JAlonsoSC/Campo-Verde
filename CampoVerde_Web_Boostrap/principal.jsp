@@ -35,7 +35,7 @@
                         </li>
 
                         <li class="sidebar-item">
-                            <a class="sidebar-link" href="">
+                            <a class="sidebar-link" href="enviarMensaje.jsp">
                                 <i class="align-middle" data-feather="user"></i> <span
                                     class="align-middle">Perfil</span>
                             </a>
@@ -61,9 +61,21 @@
                             </a>
                         </li>
                         <li class="sidebar-item">
-                            <a class="sidebar-link" href="">
+                            <a class="sidebar-link" href="principalEmpleado.jsp">
                                 <i class="align-middle" data-feather="book"></i> <span
                                     class="align-middle">Productos</span>
+                            </a>
+                        </li>
+                        <li class="sidebar-item">
+                            <a class="sidebar-link" href="foro.jsp">
+                                <i class="align-middle" data-feather="message-square"></i> <span
+                                    class="align-middle">Foro de Discusión</span>
+                            </a>
+                        </li>
+                        <li class="sidebar-item">
+                            <a class="sidebar-link" href="ChatEmpleados.jsp">
+                                <i class="align-middle" data-feather="message-square"></i> <span
+                                    class="align-middle">Chat - Campo Verde</span>
                             </a>
                         </li>
                     </ul>
